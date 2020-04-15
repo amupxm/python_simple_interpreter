@@ -22,6 +22,40 @@ Juts run it with python 3 and put your siurce code in &#34;program.amup&#34; fil
 python3 interpreter.py
 ```
 
+## Sample input :
+
+```sh
+A = 2
+B = 3
+C = A+B
+B = 2
+A = B * C
+
+```
+## Sample output :
+
+```sh
+A = 10
+B = 2
+C = 5
+D = 0
+-------------Converted to C++ language -----------
+
+#include <iostream.h> 
+
+ int main () 
+{ 
+ int A,B,C,D ; 
+ 
+A = 2;
+B = 3;
+C = A+B;
+B = 2;
+A = B * C;
+count << A; 
+ return 0 ; 
+ }
+```
 ## Author
 
 👤 **amir hossein mokarami far**
@@ -33,5 +67,3 @@ python3 interpreter.py
 
 Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
